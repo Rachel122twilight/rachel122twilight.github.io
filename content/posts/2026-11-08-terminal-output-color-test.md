@@ -14,7 +14,6 @@ tags:
 cover:
   image: /images/Images/Cover/4fbb3f2aac335e7302aba47169468c1f3691003162659491.jpg
   alt: Image
-  caption: Terminal output color test - Image
   relative: false
 ---
 apt 2048 里找到的文件
