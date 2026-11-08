@@ -3,8 +3,8 @@ media:
   output: "/images"
 
 content:
-  - name: "posts"
-    label: "Posts"
+  - name: "post"
+    label: "Post"
     type: "collection"
     path: "content/posts"
     fields:
@@ -27,7 +27,63 @@ content:
         type: select
         options:
           multiple: true
-          values: [Article, "Old Stories, New Tales", "A symphony of development, downloading, installation, and tutorials"]
+          values: ["Article", "Old Stories, New Tales", "A symphony of development, downloading, installation, and tutorials"]
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          multiple: true
+          values: [Develop, Windows, macOS, Linux, Android, iOS, Bash, C, C++, C#, Java, JavaScript, Python, Flutter, Dart, HTML, Tool, Game, Draw, Program, AI, Phone, Computer, Script, Music]
+      - name: cover
+        label: Cover
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+          - name: alt
+            label: Alt
+            type: string
+          - name: caption
+            label: Caption
+            type: string
+          - name: relative
+            label: Relative
+            type: boolean
+            default: false
+      - name: body
+        label: Body
+        type: rich-text
+      - name: attachment
+        label: Attachment
+        type: file
+        options:
+          multiple: true
+  - name: "categories"
+    label: "Categories"
+    type: "collection"
+    path: "content/posts"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: true
+      - name: description
+        label: Description
+        type: string
+      - name: categories
+        label: Categories
+        type: select
+        options:
+          multiple: true
+          values: ["Article", "Old Stories, New Tales", "A symphony of development, downloading, installation, and tutorials"]
       - name: tags
         label: Tags
         type: select
