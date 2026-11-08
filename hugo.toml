@@ -121,7 +121,7 @@ limit = 10
 keys = ["title", "permalink", "summary", "content"]
 
 [params.footer]
-hideCopyright: true
+hideCopyright = true
 text = "© 2026 Rachel122"
 
 [[menu.main]]
