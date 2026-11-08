@@ -3,8 +3,8 @@ media:
   output: "/images"
 
 content:
-  - name: "post"
-    label: "Post"
+  - name: "posts"
+    label: "Posts"
     type: "collection"
     path: "content/posts"
     fields:
