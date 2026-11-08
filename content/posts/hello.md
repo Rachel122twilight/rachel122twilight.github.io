@@ -3,7 +3,7 @@ title: Introduction
 date: 2026-11-08
 draft: false
 description: Introduction
-tags: article
+tags: Article
 ---
 Hi! I am Rachel122. You can call me Rachel.
 
