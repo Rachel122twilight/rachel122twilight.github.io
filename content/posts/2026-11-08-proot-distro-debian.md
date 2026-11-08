@@ -14,7 +14,6 @@ tags:
 cover:
   image: /images/Images/Cover/0f42856bacd559004fab80ceb4a8e3b93691003162659491.jpg
   alt: Image
-  caption: Proot-Distro install Debian - Image
   relative: false
 ---
 *2024年4月5日 20:13*
