@@ -55,7 +55,7 @@ icon = "https://avatars.githubusercontent.com/u/257100881"
 iconHeight = 35
 
 [params.profileMode]
-enabled = false
+enabled = true
 title = "Rachel122's Blog"
 subtitle = "Welcome"
 imageUrl = "https://avatars.githubusercontent.com/u/257100881"
@@ -87,6 +87,10 @@ url = "https://space.bilibili.com/3691003162659491"
 name = "github"
 url = "https://github.com/rachel122twilight"
 
+[[params.socialIcons]]
+name = "email"
+url = "mailto://rachel122twi1326@outlook.com"
+
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
 
@@ -102,7 +106,7 @@ hiddenInList = true
 hiddenInSingle = true
 
 [params.editPost]
-URL = "https://github.com/<path_to_repo>/content"
+URL = "https://github.com/Rachel122twilight/rachel122twilight.github.io/content"
 Text = "Suggest Changes"
 appendFilePath = true
 
