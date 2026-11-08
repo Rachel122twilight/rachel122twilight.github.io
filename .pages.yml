@@ -4,29 +4,29 @@ media:
 
 content:
   - name: "posts"
-    label: "博客文章"
+    label: "Posts"
     type: "collection"
     path: "content/posts"
     create: true
     delete: true
     fields:
       - name: title
-        label: 标题
+        label: Title
         type: string
         required: true
       - name: date
-        label: 日期
+        label: Date
         type: date
       - name: draft
-        label: 草稿
+        label: Draft
         type: boolean
         default: true
       - name: description
-        label: 摘要
+        label: Description
         type: string
       - name: tags
-        label: 标签
+        label: Tags
         type: list
       - name: body
-        label: 正文
+        label: Body
         type: markdown
