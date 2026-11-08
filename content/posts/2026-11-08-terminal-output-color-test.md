@@ -1,5 +1,5 @@
 ---
-title: 终端输出色彩测试 Terminal output color test
+title: 终端输出色彩测试
 date: 2026-11-08
 draft: false
 description: Terminal output color test
@@ -18,7 +18,7 @@ cover:
 ---
 apt 2048 里找到的文件
 
-`````
+```
 #!/bin/bash
 
 echo "[8 colors] => ^[[4#m"
@@ -116,4 +116,5 @@ echo #New line
   fi
 
 done
-``````
+```
+
