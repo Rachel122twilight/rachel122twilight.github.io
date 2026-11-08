@@ -1,7 +1,7 @@
 ---
 title: 终端输出色彩测试 Terminal output color test
 date: 2026-11-08
-draft: true
+draft: false
 description: Terminal output color test
 tags: Article
 ---
