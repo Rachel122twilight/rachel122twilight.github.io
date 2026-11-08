@@ -24,10 +24,16 @@ content:
         type: string
       - name: categories
         label: Categories
-        type: string
+        type: select
+        options:
+          multiple: true
+          values: [Article]
       - name: tags
         label: Tags
-        type: list
+        type: select
+        options:
+          multiple: true
+          values: [Develop, Windows, macOS, Linux, Android, iOS, Bash, C, C++, C#, Java, JavaScript, Python, Flutter, Dart, HTML, Tool, Game, Draw, Program, AI, Phone, Computer, Script, Music]
       - name: body
         label: Body
-        type: markdown
+        type: rich-text
