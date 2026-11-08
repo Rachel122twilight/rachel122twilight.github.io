@@ -3,7 +3,11 @@ title: 终端输出色彩测试 Terminal output color test
 date: 2026-11-08
 draft: false
 description: Terminal output color test
-tags: Article
+categories: Article
+tags: |-
+  Develop
+  Linux
+  Bash
 ---
 2026/01/18/ 17:11
 
