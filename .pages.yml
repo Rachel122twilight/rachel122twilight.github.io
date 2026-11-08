@@ -43,3 +43,5 @@ content:
       - name: attachment
         label: 附件
         type: file
+        options:
+          multiple: true
