@@ -26,7 +26,6 @@ content:
         label: Categories
         type: select
         options:
-          multiple: true
           values: [Article]
       - name: tags
         label: Tags
