@@ -36,7 +36,22 @@ content:
           values: [Develop, Windows, macOS, Linux, Android, iOS, Bash, C, C++, C#, Java, JavaScript, Python, Flutter, Dart, HTML, Tool, Game, Draw, Program, AI, Phone, Computer, Script, Music]
       - name: cover
         label: Cover
-        type: image
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+            required: true
+          - name: alt
+            label: Alt
+            type: string
+          - name: caption
+            label: Caption
+            type: string
+          - name: relative
+            label: Relative
+            type: boolean
+            default: false
       - name: body
         label: Body
         type: rich-text
