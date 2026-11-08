@@ -18,7 +18,7 @@ cover:
 ---
 apt 2048 里找到的文件
 
-```
+`````
 #!/bin/bash
 
 echo "[8 colors] => ^[[4#m"
@@ -116,5 +116,4 @@ echo #New line
   fi
 
 done
-```
-
+``````
