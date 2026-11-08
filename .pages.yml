@@ -34,9 +34,6 @@ content:
         options:
           multiple: true
           values: [Develop, Windows, macOS, Linux, Android, iOS, Bash, C, C++, C#, Java, JavaScript, Python, Flutter, Dart, HTML, Tool, Game, Draw, Program, AI, Phone, Computer, Script, Music]
-      - name: cover
-        label: Cover
-        type: image
       - name: body
         label: Body
         type: rich-text
