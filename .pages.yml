@@ -24,6 +24,9 @@ content:
       - name: description
         label: Description
         type: string
+      - name: categories
+        label: Categories
+        type: string
       - name: tags
         label: Tags
         type: list
