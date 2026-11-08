@@ -7,8 +7,6 @@ content:
     label: "Posts"
     type: "collection"
     path: "content/posts"
-    create: true
-    delete: true
     fields:
       - name: title
         label: Title
