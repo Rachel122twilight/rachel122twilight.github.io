@@ -4,7 +4,10 @@ date: 2026-11-08
 draft: false
 description: Terminal output color test
 categories: Article
-tags: Develop, Linux, Bash
+tags: |-
+  - Develop
+  - Linux
+  - Bash
 ---
 2026/01/18/ 17:11
 
