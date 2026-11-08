@@ -41,7 +41,7 @@ content:
         label: Body
         type: rich-text
       - name: attachment
-        label: 附件
+        label: Attachment
         type: file
         options:
           multiple: true
