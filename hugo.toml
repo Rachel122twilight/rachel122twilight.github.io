@@ -3,8 +3,8 @@ title = "Rachel122's Blog"
 theme = "PaperMod"
 
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
+buildDrafts = true
+buildFuture = true
 buildExpired = false
 pygmentsUseClasses = true
 
@@ -20,8 +20,8 @@ env = "production"
 title = "Rachel122's Blog"
 description = "Rachel122's Blog"
 keywords = ["Blog"]
-author = "Me"
-images = ["<link or path of image for opengraph, twitter-cards>"]
+author = "Rachel122"
+images = ["https://avatars.githubusercontent.com/u/257100881"]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -101,9 +101,9 @@ SiteVerificationTag = "XYZabc"
 SiteVerificationTag = "XYZabc"
 
 [params.cover]
-hidden = true
+hidden = false
 hiddenInList = true
-hiddenInSingle = true
+hiddenInSingle = false
 
 [params.editPost]
 URL = "https://github.com/Rachel122twilight/rachel122twilight.github.io/content"
@@ -120,22 +120,20 @@ minMatchCharLength = 0
 limit = 10
 keys = ["title", "permalink", "summary", "content"]
 
+[params.footer]
+hideCopyright: true
+text = "© 2026 Rachel122"
+
 [[menu.main]]
 identifier = "categories"
-name = "categories"
+name = "Categories"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
-
-[[menu.main]]
-identifier = "rachel122twilight.github.io"
-name = "rachel122twilight.github.io"
-url = "https://rachel122twilight.github.io"
+identifier = "rachel122's github"
+name = "Rachel122's Github"
+url = "https://github.com/rachel122twilight"
 weight = 30
 
 [markup.highlight]
