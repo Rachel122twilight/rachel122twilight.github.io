@@ -4,7 +4,7 @@ date: 2026-11-08
 draft: false
 description: Proot-Distro install Debian
 categories:
-  - Article
+  - Old Stories, New Tales
 tags:
   - Linux
   - Bash
