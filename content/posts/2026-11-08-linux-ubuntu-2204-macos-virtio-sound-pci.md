@@ -13,7 +13,6 @@ tags:
 cover:
   image: /images/Images/Cover/7d5d60dfa234e72f95ef8edfd3b5bfff3691003162659491.png
   alt: Image
-  caption: Problems Installing macOS virtio-sound-pci on Linux Ubuntu 22.04 - Image
   relative: false
 ---
 *2026年02月23日 15:27*
@@ -26,11 +25,13 @@ cover:
 
 到你的 quickemu 安装目录修改 quickemu 文件，然后找到第 1103 行，把 virtio-sound-pci 替换成 qemu 支持的声卡，此处使用 ich9-intel-hda。
 
-![Before - Image](/Images/Picture/9b8e5d4e1996ad821952612e02da13603691003162659491.png)
+![Before - Image](/images/Images/Picture/9b8e5d4e1996ad821952612e02da13603691003162659491.png)
 
-![After - Image](/Images/Cover/7d5d60dfa234e72f95ef8edfd3b5bfff3691003162659491.png)
+![After - Image](/images/Images/Cover/7d5d60dfa234e72f95ef8edfd3b5bfff3691003162659491.png)
 
 然后就可以运行了，此教程也适用于一些较旧的 Linux 发行版。
+
+
 
 如果你的 quickemu 与本教程不一样，可以使用我在 GitHub Fork 的版本。
 
