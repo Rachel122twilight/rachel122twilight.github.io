@@ -1,12 +1,10 @@
 ---
-title: "Introduction"
+title: Introduction
 date: 2026-11-08
 draft: false
-description: "Introduction"
-tags: ["Article"]
+description: Introduction
+tags: article
 ---
-
-
 Hi! I am Rachel122. You can call me Rachel.
 
 I often create interesting things, a lot of them, like writing code and making programs.
