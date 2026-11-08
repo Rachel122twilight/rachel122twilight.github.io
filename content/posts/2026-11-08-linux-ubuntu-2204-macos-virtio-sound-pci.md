@@ -16,6 +16,10 @@ cover:
   caption: Problems Installing macOS virtio-sound-pci on Linux Ubuntu 22.04 - Image
   relative: false
 ---
+*2026年02月23日 15:27*
+
+
+
 在 Ubuntu 22.04 发行版下使用 quickemu 安装 macOS（尤其是 Monterey 发行版）时会有 qemu 报错 virtio-sound-pci 是个不存在的参数。
 
 这通常是因为安装在系统的 qemu 版本还没有 virtio-sound-pci 这个声卡，如果你不想编译 qemu，那么这里有个简单的办法，就是绕过它，使用其他的声卡。
