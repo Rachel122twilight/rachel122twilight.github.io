@@ -131,8 +131,8 @@ url = "/categories/"
 weight = 10
 
 [[menu.main]]
-identifier = "rachel122's github"
-name = "Rachel122's Github"
+identifier = "github"
+name = "Github"
 url = "https://github.com/rachel122twilight"
 weight = 30
 
