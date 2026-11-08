@@ -12,13 +12,11 @@ tags:
   - Program
   - Script
 ---
-2026/01/18/ 17:11
-
 ![Image](https://i1.hdslb.com/bfs/new_dyn/4fbb3f2aac335e7302aba47169468c1f3691003162659491.jpg)
 
-apt 2048 里找到的文件，需要自取
+apt 2048 里找到的文件
 
-```
+````
 #!/bin/bash
 
 echo "[8 colors] => ^[[4#m"
@@ -36,7 +34,9 @@ for color in {0..7} ; do
   if [ $((($color + 1) % 8)) == 0 ] ; then
 
 ```
+
 echo #New line
+
 ```
 
   fi
@@ -58,7 +58,9 @@ for color in {0..15} ; do
   if [ $((($color + 1) % 8)) == 0 ] ; then
 
 ```
+
 echo #New line
+
 ```
 
   fi
@@ -80,7 +82,9 @@ for color in {16..231} ; do
   if [ $((($color - 15) % 6)) == 0 ] ; then
 
 ```
+
 echo #New line
+
 ```
 
   fi
@@ -102,11 +106,12 @@ for color in {232..255} ; do
   if [ $((($color - 231) % 12)) == 0 ] ; then
 
 ```
+
 echo #New line
+
 ```
 
   fi
 
 done
-```
-
+````
