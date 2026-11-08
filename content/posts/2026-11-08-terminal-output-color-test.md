@@ -14,11 +14,11 @@ tags:
 ---
 2026/01/18/ 17:11
 
-[https://i1.hdslb.com/bfs/new_dyn/4fbb3f2aac335e7302aba47169468c1f3691003162659491.jpg](https://i1.hdslb.com/bfs/new_dyn/4fbb3f2aac335e7302aba47169468c1f3691003162659491.jpg)
+![Image](https://i1.hdslb.com/bfs/new_dyn/4fbb3f2aac335e7302aba47169468c1f3691003162659491.jpg)
 
 apt 2048 里找到的文件，需要自取
 
-````
+```
 #!/bin/bash
 
 echo "[8 colors] => ^[[4#m"
@@ -108,4 +108,5 @@ echo #New line
   fi
 
 done
-````
+```
+
