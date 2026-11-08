@@ -27,7 +27,7 @@ content:
         type: select
         options:
           multiple: true
-          values: [Article]
+          values: [Article, "Old Stories, New Tales", "A symphony of development, downloading, installation, and tutorials"]
       - name: tags
         label: Tags
         type: select
